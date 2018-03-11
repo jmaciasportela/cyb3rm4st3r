@@ -1,0 +1,15 @@
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1a.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CBC:  b'\x18+&\xf4\x0f\xdel\xa5\x88\xab\x85\x98?\x04\x8e<'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1a.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CBC:  b'\x8d\xb2\xf4\xcf2\xce\n\x0f\xa1\xc9L\x90\xf7M\r8'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1a.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CBC:  b'60Y\xba\xaa\x15n"\x023b71\x86\'\xb8'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True

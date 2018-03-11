@@ -1,0 +1,15 @@
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_CFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CFB:  b'\x18\xf7\xd5\x081D\x9d\xea7\xe8J=\xe2\xf5\x12}'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_CFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CFB:  b'\x1c\x9f\x93h\x80\x9d\xa08\xae\x08^\xc1C\x11\xcb+'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_CFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND CFB:  b'Qhxw\xc8\x96\xdbX\x94\xb1%\xeb \x1a|\xbe'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True

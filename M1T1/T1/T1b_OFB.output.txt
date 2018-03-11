@@ -1,0 +1,15 @@
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_OFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND OFB:  b'\x81$\x89\x82\x0c\xa7\x1e\xec\xf8\xd1z\xdb\t$\xfaa'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_OFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND OFB:  b'[9\xa5*\x85\x15\x8f\x15\xf1;\xa0\xdf\xd4\x96zD'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_OFB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND OFB:  b'\xa9\xda{\xc5V\xfd\xbd\x87@cq\x96tn\x19a'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL MESSAGGE AND DECRYPTED MESSAGE ARE EQUAL -> True

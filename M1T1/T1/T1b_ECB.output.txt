@@ -1,0 +1,15 @@
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_ECB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND ECB:  b'\xb6b\x18\xd7G0~\xf7\xd6EP\xf5o\xa5\xdc\x16'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_ECB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+^[[A2- ENCRYPTED MESSAGE WITH STATIC KEY AND ECB:  b'\xb6b\x18\xd7G0~\xf7\xd6EP\xf5o\xa5\xdc\x16'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True
+maci@maci:~/projects/cyb3rm4st3r/M1T1{master} $ ./T1b_ECB.py
+1- ORIGINAL MESSAGE:  b'a secret message'
+2- ENCRYPTED MESSAGE WITH STATIC KEY AND ECB:  b'\xb6b\x18\xd7G0~\xf7\xd6EP\xf5o\xa5\xdc\x16'
+3- DECRYPTED MESSAGE:  b'a secret message'
+ORIGINAL AND DECRYPTED MESSAGES ARE EQUAL -> True
